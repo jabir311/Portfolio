@@ -278,7 +278,7 @@ footer{
   }
    .projects{
     height: 70vh;
-    width: 100%;
+   
    }
   .project-item {
     height: 260px;
@@ -306,333 +306,6 @@ footer{
     justify-content: space-evenly;
     margin-top: 60px;
   }
-  /* @media screen and (max-width: 1024px){
-   .projects{
-    height: 115vh;
-   }
-   .project-img{
-     grid-template-columns:repeat(4,auto);  
-    display: grid;
-    grid-gap: 20px;
-    margin: 50px;
-   }
-   .project-item {
-    height: 230px;
-    width: 200px;
-   }
-    .project-item img{
-    height: 170px;
-    width: 170px;
-    }
-   .skills{
-    height: 100vh;
-   }
-   .skill-item {
-    height: 200px;
-    width: 170px;
-  }
-  .skill-item img{
-    height: 120px;
-    width: 120px;
-  }
-}
-  
-  @media screen and (max-width: 768px) {
-    header{
-      width: 770px;
-    }
-    .section1{
-      display: grid;
-      grid-template-columns: repeat(2,auto);
-      height: 70vh;
-     
-    }
-    #imgp{
-      height:350px;
-       width:350px;
-    }
-    .project-img{
-      grid-template-columns:repeat(3,auto);  
-     display: grid;
-    }
-    .section1 h4{
-      font-size: 30px;
-      position: relative;
-      top: 20px;
-    }
-    .section1 h1{
-      font-size: 45px;
-    }
-    .section1 h3{
-      font-size: 20px;
-    }
-    .section2{
-      height: 80vh;
-    }
-    #imgp1{
-      height:350px;
-       width:350px;
-    }
-    #abo{
-      font-size: 20px;
-    }
-    #front{
-      font-size: 32px;
-      color: #000000;
-    }
-    .skills {
-      height: 83vh;
-      gap: 40px;
-    }
-     .skill-img{
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      margin: 30px;
-    } 
-    .skill-item {
-      height: 180px;
-      width: 160px;
-    }
-    .skill-item img{
-      height: 120px;
-      width: 120px;
-    }
-    .skill-img1{
-      gap: 30px;
-     
-    }
-    .skill-item h3 {
-      font-size: 16px;
-    }
-    
-      footer{
-        height: 80vh;
-       width: 100%; 
-       padding: 10px;
-      margin-left: 20px;
-    }
-    .footer-part{
-      height: 80vh;
-      width: 70%;
-      gap: 5px;
-    }
-    td .form1{
-      height: 30vh;
-      width: 400px;
-  }
-  td .form{
-    height: 10vh;
-    width: 400px;
-  }
-  td .form2{
-    height: 10vh;
-    width: 400px;
-  }
-}
-  @media screen and (max-width: 480px) {
-    header{
-      width: 690px;
-    }
-    .section1{
-      display: grid;
-      grid-template-columns: repeat(2,auto);
-      height: 80vh;
-      width: 160%;
-     
-    }
-    #imgp{
-      height:320px;
-       width:320px;
-       background-size: cover;
-    }
-    .section2{
-      height: 120vh;
-      width: 160%;
-      display: flex;
-      flex-direction: column-reverse;
-      
-    }
-    #imgp1{
-      height:320px;
-       width:320px;
-    }
-    .skill-item {
-      height: 165px;
-      width: 140px;
-     
-     
-    }
-    .skill-item img{
-      height: 90px;
-      width: 90px;
-  
-    }
-    .skill-img{
-      gap: 24px;
-
-    }
-    .project-img{
-      margin: 5px;
-    }
-    footer{
-      height:90vh;
-      width: 150%;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      margin: 20px;
-    }
-    .footer-part{
-      height: 50vh;
-      width: auto;
-    }
-    .registration{
-      height: 100vh;
-      width: auto;
-    }
-  }
-   
-  @media screen and (max-width: 375px) {
-   
-    .section1{
-      display: grid;
-      grid-template-columns: repeat(2,auto);
-      gap: 15px;
-      height: 80vh;
-      width: 160%;
-      margin:40px ;
-     
-    }
-    .section1 h4{
-      font-size: 20px;
-    }
-    .section1 h1{
-      font-size: 35px;
-    }
-    .section1 h3{
-      font-size: 15px;
-    }
-    #imgp{
-      height:320px;
-       width:320px;
-       background-size: cover;
-    }
-    .section2{
-      height: 120vh;
-      width: 180%;
-      display: flex;
-      flex-direction: column-reverse;
-      
-    }
-    #imgp1{
-      height:320px;
-       width:320px;
-    }
-    .skill-item {
-      height: 165px;
-      width: 140px;
-     
-     
-    }
-    .skill-item img{
-      height: 90px;
-      width: 90px;
-  
-    }
-    .skill-img{
-      gap: 24px;
-
-    }
-    .project-img{
-      margin: 5px;
-    }
-    footer{
-      height:90vh;
-      width: 160%;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      margin: 20px;
-    }
-    .footer-part{
-      height: 50vh;
-      width: auto;
-    }
-    .registration{
-      height: 100vh;
-      width: auto;
-    }
-  }
-  @media screen and (max-width: 340px){
-    .section1 h1{
-      font-size: 30px;
-    }
-  } 
-  @media screen and (max-width: 320px) {
-   
-    .section1{
-      display: grid;
-      grid-template-columns: repeat(2,auto);
-      height: 75vh;
-      width: 180%;
-     
-    }
-    #imgp{
-      height:320px;
-       width:320px;
-       background-size: cover;
-    }
-    .section2{
-      height: 120vh;
-      width: 180%;
-      display: flex;
-      flex-direction: column-reverse;
-      margin: 30px;
-      
-    }
-    #imgp1{
-      height:320px;
-       width:320px;
-    }
-    .skill-item {
-      height: 165px;
-      width: 140px;
-     
-     
-    }
-    .skill-item img{
-      height: 90px;
-      width: 90px;
-  
-    }
-    .skill-img{
-      gap: 24px;
-
-    }
-    .skill-img1{
-      margin-left: 10px;
-    }
-    .project-img{
-      margin: 5px;
-    }
-    footer{
-      height:90vh;
-      width: 160%;
-      display: flex;
-      flex-direction: column;
-      gap: 60px;
-      margin: 20px;
-    }
-    .footer-part{
-      height: 50vh;
-      width: auto;
-    }
-    .registration{
-      height: 100vh;
-      width: auto;
-    }
-  }
-   */
    /* Existing CSS remains the same until the end */
 
 /* Media Queries for Responsive Design */
@@ -643,7 +316,10 @@ footer{
     height: auto;
     padding: 50px 0;
   }
-  
+  .projects{
+    height: 90vh;
+   
+   }
   .section1 h1 {
     font-size: 50px;
   }
@@ -660,7 +336,7 @@ footer{
   }
   
   footer {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     padding: 30px;
   }
@@ -707,6 +383,12 @@ footer{
   .skill-img, .skill-img1 {
     gap: 20px;
   }
+  .projects{
+    height: 100vh;
+  }
+  footer {
+    flex-direction: column;
+}
 }
 
 /* For mobile devices (max-width: 480px) */
@@ -771,6 +453,15 @@ footer{
   .links1 {
     justify-content: center;
   }
+ td .form,
+  td .form1,
+  td .form2 {
+    width: 130%;
+  }
+  .none{
+    display: none;
+  }
+ 
 }
 
 /* For very small devices (max-width: 320px) */
@@ -781,9 +472,9 @@ footer{
   h3{
     font-size: 15px;
   }
-  .projects{
+  /* .projects{
     height: 90vh;
-  }
+  } */
   
   #imgp, #imgp1 {
     height: 200px;
@@ -804,7 +495,5 @@ footer{
   td .form2 {
     width: 280px;
   }
-  button{
-    display: none;
-  }
+  
 }
